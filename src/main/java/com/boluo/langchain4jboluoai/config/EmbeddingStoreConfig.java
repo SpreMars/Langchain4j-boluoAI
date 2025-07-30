@@ -26,7 +26,7 @@ public class EmbeddingStoreConfig {
     public EmbeddingStore<TextSegment> embeddingStore() {
         // 创建向量存储
         EmbeddingStore<TextSegment> embeddingStore = QdrantEmbeddingStore.builder()
-                .host("localhost")
+                .host(System.getenv("SERV_HOST"))
                 .port(6334)
                 .collectionName("boluoAI")
                 .build();
