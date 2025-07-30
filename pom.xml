@@ -101,6 +101,11 @@
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j-reactor</artifactId>
         </dependency>
+        <!--MCP 模块-->
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-mcp</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

@@ -12,7 +12,7 @@ import static dev.langchain4j.service.spring.AiServiceWiringMode.EXPLICIT;
 //        chatModel = "qwenChatModel",
         streamingChatModel = "qwenStreamingChatModel",
         chatMemoryProvider = "chatMemoryProviderBoluo",
-        tools = "appointmentTools",
+        tools = {"appointmentTools","baiDuMapTools"},
         contentRetriever = "contentRetrieverBoLuo")
 public interface BoLuoAgent {
 
