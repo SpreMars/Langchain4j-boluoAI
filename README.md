@@ -1,0 +1,2 @@
+# Langchain4j-boluoAI
+基于Langchain4j和Springboot开发的agent
